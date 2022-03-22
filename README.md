@@ -4,10 +4,17 @@ A template for running Rust on RISC-V based [HiFive1 boards](https://www.sifive.
 
 ## Prerequisites
 
-To get started, you'll need to:
+To get started:
 
-- grab [a prebuilt RISC-V toolchain](https://www.sifive.com/software) for your host platform and add the `riscv64-unknown-elf-gcc` binary to your `PATH`.
-- install [SEGGER Embedded Studio](https://www.segger.com/products/development-tools/embedded-studio/editions/risc-v/).
+Grab [a prebuilt RISC-V toolchain](https://www.sifive.com/software) for your host platform and add the `riscv64-unknown-elf-gcc` binary to your `PATH`.
+
+Install [SEGGER Embedded Studio](https://www.segger.com/products/development-tools/embedded-studio/editions/risc-v/).
+
+Add the `riscv32imac-unknown-none-elf` target:
+
+```
+rustup target add riscv32imac-unknown-none-elf
+```
 
 ## Installing the template
 

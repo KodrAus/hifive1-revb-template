@@ -18,16 +18,16 @@ debug = true
 lto = true
 
 [dependencies.embedded-hal]
-version = "0.2.3"
+version = "0.2.7"
 
 [dependencies.hifive1]
-version = "0.8.0"
+version = "0.10.0"
 features = [
     "board-hifive1-revb"
 ]
 
 [dependencies.riscv]
-version = "0.5.3"
+version = "0.7.0"
 
 [dependencies.riscv-rt]
-version = "0.6.0"
+version = "0.8.1"
